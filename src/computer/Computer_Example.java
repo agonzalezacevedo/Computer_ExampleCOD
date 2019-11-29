@@ -13,7 +13,7 @@ public class Computer_Example {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        Computer comp = new Computer("Inalambrico", "Samsung", 20.0f, 5, 1);
+        Computer comp = new Computer("Wireless", "Samsung", 20.0f, 5, 1);
         comp.show();
         System.out.print("Mouse type:");
         String type = sc.nextLine();
